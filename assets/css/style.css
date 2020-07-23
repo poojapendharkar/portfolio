@@ -59,7 +59,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #999999;
+  color: #272727;
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -71,7 +71,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #272727;
   line-height: 28px;
 }
 
@@ -252,7 +252,7 @@ nav ul li a {
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: capitalize;
+  
   color: #fff;
   font-weight: 500;
 }
@@ -264,7 +264,7 @@ nav ul li a {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 45px;
 }
 
 /*--------------------------------------------------------------
@@ -346,7 +346,7 @@ nav ul li a {
   box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
   margin-top: -60px;
   margin-left: 40px;
-  height: 400px;
+  height: 350px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -359,9 +359,12 @@ nav ul li a {
 
 #about .about-descr .separator {
   max-width: 80%;
+  font-size: 18px;
   margin-bottom: 0;
   text-align: left;
 }
+
+
 
 /*--------------------------------------------------------------
 # Services
@@ -379,10 +382,10 @@ nav ul li a {
 .services-block span {
   margin: 10px 0;
   position: relative;
-  font-size: 13px;
+  font-size: 15px;
   color: #292929;
   letter-spacing: 0.1em;
-  font-weight: 500;
+  font-weight: 545;
   text-transform: uppercase;
   display: block;
 }
@@ -394,7 +397,7 @@ nav ul li a {
 }
 
 .services-block i {
-  font-size: 44px;
+  font-size: 45px;
   color: #b8a07e;
   line-height: 44px;
 }
@@ -611,13 +614,13 @@ nav ul li a {
   height: auto;
   width: 100%;
   background: #f7f7f7;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   position: relative;
 }
 
 #journal-blog {
   background: #fff;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 #journal .journal-block {
@@ -631,7 +634,7 @@ nav ul li a {
 }
 
 .journal-block .journal-info img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .journal-block .journal-info .journal-txt {
@@ -670,6 +673,7 @@ nav ul li a {
 
 .contact-details {
   list-style: none;
+  align-content: center;
   margin: 0;
   padding: 0;
 }
@@ -911,7 +915,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a {
-  font-size: 24px;
+  font-size: 35px;
   color: #999;
   letter-spacing: 0.1em;
   font-weight: 500;
