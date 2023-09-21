@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Welcome to my Portfolio Page
 
-Template Name: Folio
+The website was based on the bootstrap template and modified further to fit my needs for the portfolio. 
 Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
