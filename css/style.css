@@ -272,6 +272,90 @@ a:hover {
     left: auto;
   }
 }
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.projects .icon-box {
+  padding: 20px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+.projects .icon-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: ease-in-out 0.3s;
+  z-index: -1;
+}
+
+.projects .icon-box:hover::before {
+  background: #b8a07e;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.projects .icon {
+  margin: 0 auto 30px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #b8a07e;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
+}
+
+.projects .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.projects .title a {
+  color: #111;
+}
+
+.projects .description {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.projects .icon-box:hover .title a,
+.projects .icon-box:hover .description {
+  color: #fff;
+}
+
+.projects .icon-box:hover .icon {
+  background: #fff;
+}
+
+.projects .icon-box:hover .icon i {
+  color: #b8a07e;
+}
+
+@media (max-width: 768px) {
+  .projects .icon-box::before {
+    bottom: 60%;
+  }
+}
 
 /*----------------------------------------------
     MOD: MARKER OUTLINE
