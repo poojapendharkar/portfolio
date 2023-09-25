@@ -45,13 +45,11 @@ a:hover {
   background: #F1F4F5;
 }
 
-.example-title {
+.website-section-title {
   text-align: center;
-  margin-bottom: 60px;
   padding: 3em 0;
-  border-bottom: 1px solid #E4EAEC;
 }
-.example-title p {
+.website-section-title p {
   margin: 0 auto;
   font-size: 16px;
   max-width: 400px;
